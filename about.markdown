@@ -43,7 +43,7 @@ Python is my go-to language. I love how, with its multi-functionality, I was abl
     <td class="tg-baqh"><a href="lucas6eng@gmail.com" target="\_blank">Email</a></td>
     <td class="tg-baqh"><a href="https://github.com/iamlucassantos" target="\_blank">GitHub</a></td>
     <td class="tg-nrix"><a href="https://www.linkedin.com/in/lucasvsantos/" target="\_blank">LinkedIn</a></td>
-    <td class="tg-nrix"><a href="/assets/files/LucasSantosCV.pdf" target="\_blank">Resume</a></td>
+    <td class="tg-nrix"><a href="{{ site.url }}/assets/files/LucasSantosCV.pdf" target="\_blank">Resume</a></td>
     <td class="tg-vxga"></td>
     <td class="tg-0lax"></td>
   </tr>
