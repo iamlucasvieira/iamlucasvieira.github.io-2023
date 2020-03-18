@@ -6,9 +6,3 @@ layout: home
 permalink: "/blog"
 title: Blog
 ---
-ss
-<!-- {% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
-{% endfor %} -->
