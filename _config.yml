@@ -47,7 +47,10 @@ defaults:
       layout: "post"
 
       # Values
-
+header_pages:
+  - about.markdown
+  - projects.md
+  - index.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
