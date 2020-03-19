@@ -44,6 +44,7 @@ defaults:
       layout: "post"
       permalink: "/:categories/:title"
       author: "Lucas Santos"
+      comments: True
 
       # Values
 header_pages:
