@@ -42,6 +42,7 @@ defaults:
       type: "post"
     values:
       layout: "post"
+      permalink: "/:categories/:title"
 
       # Values
 header_pages:
