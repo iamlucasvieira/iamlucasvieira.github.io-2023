@@ -14,9 +14,18 @@ img {
   margin-left: auto;
   margin-right: auto;
 
+
+#more {display: none;}
 }
 
 </style>
+
+
+<script>
+
+
+
+</script>
 <img src="/assets/images/me.png" alt="" height="150" class="center" ><br>
 
 
@@ -48,6 +57,7 @@ Python is my go-to language. I love how, with its multi-functionality, I was abl
     <td class="tg-0lax"></td>
   </tr>
 </table></div>
+
 
 <!-- <br><br>
 ## ✉️ Contact me -->
