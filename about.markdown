@@ -5,6 +5,8 @@ permalink: /
 ---
 
 <style>
+
+
 img {
   border-radius: 50%;
 }
@@ -18,6 +20,10 @@ img {
 #more {display: none;}
 }
 
+
+table td{
+border:none;
+}
 </style>
 
 
@@ -26,10 +32,16 @@ img {
 
 
 </script>
-<img src="/assets/images/me.png" alt="" height="150" class="center" ><br>
+<table style='border:none'>
+<tr>
+<td style='vertical-align: top'>
+
+<img src="/assets/images/me.png" alt=""  class="center"  style="width:400px;"><br>
+</td>
 
 
-Hello! I'm <b>Lucas Vieira dos Santos </b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.
+<td>
+Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
 
 Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
 
@@ -61,6 +73,9 @@ Python is my go-to language. I love how, with its multi-functionality, I was abl
 </table></div>
 
 
+</td>
+</tr>
+</table>
 <!-- <br><br>
 ## ✉️ Contact me -->
 <!-- * <a href="lucas6eng@gmail.com" target="\_blank">Email</a>
