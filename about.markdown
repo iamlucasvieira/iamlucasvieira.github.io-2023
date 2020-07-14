@@ -29,12 +29,14 @@ img {
 <img src="/assets/images/me.png" alt="" height="150" class="center" ><br>
 
 
+Hello! I'm <b>Lucas Vieira dos Santos </b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.
+
+Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
 
 
+<!-- My name is <b>Lucas Vieira dos Santos </b>and I’m a student of Aerospace Engineering at TU Delft. My passion for spaceflight is so big that my eyes sparkle with any spacecraft video. After all, who doesn't get excited watching a Falcon 9 rocket land? However, when I'm not watching or studying all things space, I'm very likely to be programming.
 
-My name is <b>Lucas Vieira dos Santos </b>and I’m a student of Aerospace Engineering at TU Delft. My passion for spaceflight is so big that my eyes sparkle with any spacecraft video. After all, who doesn't get excited watching a Falcon 9 rocket land? However, when I'm not watching or studying all things space, I'm very likely to be programming.
-
-Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, scientific calculations, game development, and the creation of web applications. At the moment, I'm focused mainly on data science and how to use Python for Machine Learning.
+Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, scientific calculations, game development, and the creation of web applications. At the moment, I'm focused mainly on data science and how to use Python for Machine Learning. -->
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
