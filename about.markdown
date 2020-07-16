@@ -34,7 +34,7 @@ img {
     Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
     <div class='row mt-3'>
         <div class='col'>
-            <a href="lucas6eng@gmail.com" target="\_blank">Email</a>
+            <a href="mailto:lucas6eng@gmail.com" target="\_blank">Email</a>
         </div>
         <div class='col'>
             <a href="https://github.com/iamlucassantos" target="\_blank">GitHub</a>
