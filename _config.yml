@@ -52,8 +52,8 @@ header_pages:
   - projects.md
   - index.markdown
 
-disqus:
-  shortname: iamlucassantos
+# disqus:
+#   shortname: iamlucassantos
 
 sass:
     sass_dir: _sass

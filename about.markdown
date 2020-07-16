@@ -32,7 +32,40 @@ border:none;
 
 
 </script>
-<table style='border:none'>
+
+
+<div class="container">
+     <div class="row">
+    <div class="col-12 col-lg-3 p-2" >
+    <img src="/assets/images/me.png" alt="" class="center"    style="width:110px;">
+    </div>
+    <div class="col-12 col-lg-9" style=' text-align: justify;' >
+    Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
+    Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
+    <div class='row mt-3'>
+        <div class='col'>
+            <a href="lucas6eng@gmail.com" target="\_blank">Email</a>
+        </div>
+        <div class='col'>
+            <a href="https://github.com/iamlucassantos" target="\_blank">GitHub</a>
+        </div>
+        <div class='col'>
+            <a href="https://www.linkedin.com/in/lucasvsantos/" target="\_blank">LinkedIn</a>
+        </div>
+        <div class='col'>
+            <a href="{{ site.url }}/download/LucasSantosCV.pdf" target="\_blank">Resume</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+</div>
+
+
+<!-- <table style='border:none'>
 <tr>
 <td style='vertical-align: top'>
 
@@ -43,14 +76,14 @@ border:none;
 <td>
 Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
 
-Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
+Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning. -->
 
 
 <!-- My name is <b>Lucas Vieira dos Santos </b>and I’m a student of Aerospace Engineering at TU Delft. My passion for spaceflight is so big that my eyes sparkle with any spacecraft video. After all, who doesn't get excited watching a Falcon 9 rocket land? However, when I'm not watching or studying all things space, I'm very likely to be programming.
 
 Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, scientific calculations, game development, and the creation of web applications. At the moment, I'm focused mainly on data science and how to use Python for Machine Learning. -->
 
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
@@ -75,10 +108,14 @@ Python is my go-to language. I love how, with its multi-functionality, I was abl
 
 </td>
 </tr>
-</table>
+</table> -->
 <!-- <br><br>
 ## ✉️ Contact me -->
 <!-- * <a href="lucas6eng@gmail.com" target="\_blank">Email</a>
 * <a href="https://github.com/iamlucassantos" target="\_blank">GitHub</a>
 * <a href="https://www.linkedin.com/in/lucasvsantos/" target="\_blank">LinkdIn</a>
 * <a href="/assets/files/LucasSantosCV.pdf" target="\_blank">Resume</a> -->
+
+<div class='container mt-4' >
+
+</div>
