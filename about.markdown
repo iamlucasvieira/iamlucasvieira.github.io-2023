@@ -26,8 +26,7 @@ img {
 
 <div class="container">
      <div class="row">
-    <div class="col-12 col-lg-3 p-0 mb-2" >
-    test
+    <div class="col-12 col-lg-3 p-0 m-2 mt-0" >
     <img src="/assets/images/me.jpg" alt="" class="center"    style="width:150px;">
     </div>
 
