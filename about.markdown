@@ -33,8 +33,8 @@ img {
     Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
     Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
     <div class='row mt-3'>
-        <div class='col'>
-            <a href="mailto:lucas6eng@gmail.com" target="\_blank">Email</a>
+        <div class='col' >
+            <a href="mailto:lucas6eng@gmail.com" target="\_blank" >Email</a>
         </div>
         <div class='col'>
             <a href="https://github.com/iamlucassantos" target="\_blank">GitHub</a>
