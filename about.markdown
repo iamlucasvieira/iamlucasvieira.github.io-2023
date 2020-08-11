@@ -26,7 +26,7 @@ img {
 
 <div class="container">
      <div class="row">
-    <div class="col-12 col-lg-3 p-0 pb-3" >
+    <div class="col-12 col-lg-3 p-0 mb-3" >
     <img src="/assets/images/me.jpg" alt="" class="center"    style="width:150px;">
     </div>
     <div class="col-12 col-lg-9" style=' text-align: justify;' >
