@@ -27,8 +27,10 @@ img {
 <div class="container">
      <div class="row">
     <div class="col-12 col-lg-3 p-0 mb-2" >
+    test
     <img src="/assets/images/me.jpg" alt="" class="center"    style="width:150px;">
     </div>
+
     <div class="col-12 col-lg-9" style=' text-align: justify;' >
     Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
     Python is my go-to language. I love how, with its multi-functionality, I was able to work on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
