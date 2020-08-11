@@ -26,8 +26,8 @@ img {
 
 <div class="container">
      <div class="row">
-    <div class="col-12 col-lg-3 p-2" >
-    <img src="/assets/images/me.jpg" alt="" class="center"    style="width:110px;">
+    <div class="col-12 col-lg-3 p-0 " >
+    <img src="/assets/images/me.jpg" alt="" class="center"    style="width:150px;">
     </div>
     <div class="col-12 col-lg-9" style=' text-align: justify;' >
     Hello! I'm <b>Lucas Vieira dos Santos</b>, a Brazilian who is fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
