@@ -8,6 +8,9 @@ permalink: /projects
 * <a href="https://github.com/iamlucassantos/ILIKETHISBOOK"  target="\_blank">I LIKE THIS BOOK</a> <br>
 Book review web application built with HTML/CSS, SASS, Python, SQL and Flask.
 
+* <a href="https://github.com/iamlucassantos/linkbudget" target="\_blank">Link Budget Calculator</a> <br>
+Web application that calculates the link budget of Interplanetary and Earth-orbiting satellites built with JavaScript
+
 * <a href="https://github.com/iamlucassantos/ISA-Altitude"  target="\_blank">ISA Calculator</a> <br>
 Python calculator of density, pressure, and temperature based on the International Standard Atmosphere (ISA).
 
