@@ -27,4 +27,4 @@ By completing any of the tasks, in a gamified way, the user would get points to 
 
 In a preliminary phase of the application, all the data would be kept locally. In a future stage, the application could be hosted as a social media where the users can see the Level and Badges of their friends.
 
-This Friday I will be presenting this concept to my group members. Later, I return with updates about the software idea we decided to develop.
+This Friday I will be presenting this concept to my group members. Later, I return with updates about the software we decided to develop.
