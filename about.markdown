@@ -44,7 +44,7 @@ img {
   margin-left: -1px;
   position: absolute;
   top: 0;
-  left: 2em;
+  left: 0.5em;
   width: 2px;
   height: 100%;
 }
@@ -70,8 +70,8 @@ img {
   padding: 2em;
   position: relative;
   top: -1.875em;
-  left: 3em;
-  width: 90%;
+  left: 2em;
+  width: 99%;
 }
 .timeline-event-copy h3 {
   font-size: 1.75em;
@@ -104,7 +104,7 @@ img {
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
   top: 0;
-  left: 2em;
+  left: 0.5em;
   width: 1em;
   height: 1em;
 }
