@@ -176,9 +176,9 @@ ul{
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">Sep 2018 - Present</p>
-      <h3>BSc Aerospace Engineering </h3>
-      <h4>Delft University of technology</h4>
+      <p class="timeline-event-thumbnail">Sep 2018 - Current</p>
+      <h3>Bsc Aerospace Engineering </h3>
+      <h4>Delft University of Technology</h4>
       <p><strong>Fields of study</strong><br>Aerodynamics, Propulsion & Power Systems, Engineering & Aerospace Design, Applied Numerical Analysis, Computational Modelling, Aerospace Materials &
 Structures, and Aerospace Flight Dynamics</p>
     </div>
@@ -186,9 +186,9 @@ Structures, and Aerospace Flight Dynamics</p>
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">Sep 2020 - Present</p>
+      <p class="timeline-event-thumbnail">Sep 2020 - Current</p>
       <h3>Computer Science Minor</h3>
-      <h4>Delft University of technology</h4>
+      <h4>Delft University of Technology</h4>
       <p><strong>Fields of study</strong><br>Modern software development and Data Science</p>
     <p><strong>Main courses</strong><br>Algorithms and Data Structures, Software Engineering Methods, Data Analytics, and Visual Data Processing</p>
     </div>
@@ -196,10 +196,10 @@ Structures, and Aerospace Flight Dynamics</p>
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">April 2015 - 2017 (Incomplete)</p>
-      <h3>BSc Mechanical Engineering</h3>
+      <p class="timeline-event-thumbnail">Aug 2015 - Aug 2017 (Incomplete)</p>
+      <h3>Bsc Mechanical Engineering</h3>
       <h4>Universidade do Estado do Rio de Janeiro</h4>
-      <p><strong>Observations</strong><br>- Studies were frozen due to emigration to the Netherlands<br>
+      <p>- Studies were frozen due to emigration to the Netherlands<br>
 - Average grade at the termination of 8.63 <br>
 - Admitted through 'Vestibular UERJ' (full scholarship based on academic merit)</p>
     </div>
@@ -212,10 +212,10 @@ Structures, and Aerospace Flight Dynamics</p>
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
     <div class="timeline-event-copy">
-      <p class="timeline-event-thumbnail">April 2011 - present</p>
+      <p class="timeline-event-thumbnail">Jul 2016 - Aug 2016</p>
       <h3>Logistic Assistant </h3>
       <h4>OBS - Olympic Broadcasting Services</h4>
-      <p><strong>Observations</strong><br>
+      <p>
       - Freelance paid employment during the 2016 Olympic Games in Rio de Janeiro<br>
 - Responsible for the creation and distribution of logistical plans for the OBS crew, including bus and meal schedules, expense reports, inventory records, and call sheets<br></p>
     </div>
