@@ -71,7 +71,7 @@ img {
   position: relative;
   top: -1.875em;
   left: 3em;
-  width: 100%;
+  <!-- width: 100%; -->
 }
 .timeline-event-copy h3 {
   font-size: 1.75em;
