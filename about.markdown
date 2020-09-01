@@ -86,6 +86,7 @@ img {
 }
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
   padding-bottom: 1em;
+  text-align: justify;
 }
 
 .timeline-event-icon {
