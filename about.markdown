@@ -71,7 +71,7 @@ img {
   position: relative;
   top: -1.875em;
   left: 3em;
-  <!-- width: 100%; -->
+  width: 90%;
 }
 .timeline-event-copy h3 {
   font-size: 1.75em;
@@ -210,6 +210,7 @@ Structures, and Aerospace Flight Dynamics</p>
 
 <h1>Experience</h1>
 <div class="container">
+
 <ul class="timeline mt-4">
   <li class="timeline-event">
     <label class="timeline-event-icon"></label>
@@ -224,4 +225,5 @@ Structures, and Aerospace Flight Dynamics</p>
   </li>
 
 </ul>  
+
 </div>
