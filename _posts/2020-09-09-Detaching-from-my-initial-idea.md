@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Detaching from my initial idea"
-date: "2020-09-091 19:20:00"
+date: "2020-09-09 19:20:00"
 categories: [First]
 permalink: "/:categories/:title"
 tags: project, software, development, ideas,
