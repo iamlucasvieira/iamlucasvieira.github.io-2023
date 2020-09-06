@@ -10,7 +10,7 @@ tags: project, software, development, ideas,
 
 My software idea was not approved. But that's okay.
 
-In my last group meeting, we realized we need a software idea that truly requires 5 developers. My idea, even though liked by the team, is too simplistic to the size of the team. Dropping my idea was not that easy, but necessary. Also in this meeting, we decided on the software idea we are committing to develop in the next two months: A career platform - named HYRE - that connects companies that need immediate and temporary jobs to workers affected by the Covid-19 economic crisis.
+In my last group meeting, we realized we need a software idea that truly requires 5 developers. My idea, even though liked by the team, is too simplistic to the size of the team. Dropping my idea was not that easy, but necessary. Also in this meeting, we decided on the software idea we are committing to develop in the next two months: A career platform - named **HYRE** - that connects companies that need immediate and temporary jobs to workers affected by the Covid-19 economic crisis.
 
 ![App log](/images/2020-09-06-HyreAppLogo.jfif)
 
