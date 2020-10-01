@@ -3,15 +3,21 @@ layout: page
 title: About me
 permalink: /
 ---
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
-.SocialLink a:hover,.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active
+.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active
 {
     text-decoration: none;
     color: black;
     font-weight:bold;
 }
+
+
+.SocialLink a:hover{
+    color: gray;
+}
+
 
 img {
   border-radius: 50%;
@@ -135,7 +141,7 @@ ul{
 
 
 
-<div class="container mb-5">
+<div class="container mb-5 pb-4">
      <div class="row">
     <div class="col-12 col-lg-3 p-0 mb-3" >
     <img src="/assets/images/me.jpg" alt="" class="center"    style="width:150px;">
@@ -144,28 +150,26 @@ ul{
     <div class="col-12 col-lg-9" style=' text-align: justify;' >
     Hello, I'm <b>Lucas Vieira dos Santos</b>, a Brazilian fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
     With Python, my go-to language, I've worked on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
-    <div class='row mt-3 SocialLink'>
-        <div class='col ' >
-            <a  href="mailto:lucas6eng@gmail.com" target="\_blank" >Email</a>
+    <div class='row mt-4 SocialLink text-center'>
+        <div class='col' >
+            <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
         </div>
         <div class='col'>
-            <a  href="https://github.com/iamlucassantos" target="\_blank">GitHub</a>
+            <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
         <div class='col'>
-            <a  href="https://www.linkedin.com/in/lucasvsantos/" target="\_blank">LinkedIn</a>
+            <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
         </div>
         <div class='col'>
-            <a  href="{{ site.url }}/download/LucasSantosCV.pdf" target="\_blank">Resume</a>
+            <a  href="https://lucas6eng.myportfolio.com/" title="Behance" target="\_blank"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class='col'>
+            <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-id-card fa-2x" aria-hidden="true"></i></a>
         </div>
     </div>
 
     </div>
     </div>
-
-
-
-
-
 
 </div>
 
