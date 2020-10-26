@@ -213,7 +213,7 @@ list-style: none;
   
   <div class='container SocialLink'>
       <div class="row d-flex justify-content-center" >
-        <i  class="showmore fa fa-chevron-up fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
+        <i  class="showmore fa fa-chevron-up fa-2x" aria-hidden="true" onclick="toggle_less()"></i>
       </div>
   </div>
   
