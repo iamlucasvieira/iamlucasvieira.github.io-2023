@@ -194,8 +194,8 @@ list-style: none;
   </div>
   
   <div class='container SocialLink'>
-      <div class="showmore row d-flex justify-content-center"  onclick="toggle_more()">
-        <i  class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
+      <div class="row d-flex justify-content-center" >
+        <i  class="showmore fa fa-chevron-up fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
       </div>
   </div>
   
@@ -204,7 +204,7 @@ list-style: none;
 
 
 <div class='container SocialLink' id='showmoreCont' style="display: inline">
-    <div class="showmore row d-flex justify-content-center"  onclick="toggle_more()">
-      <i id='showmorebtn' class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+    <div class=" row d-flex justify-content-center"  >
+      <i class="showmore fa fa-chevron-down fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
     </div>
 </div>
