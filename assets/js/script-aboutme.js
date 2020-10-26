@@ -1,6 +1,8 @@
 function toggle_more(){
-  $( "#cv" ).toggle();
-  $( "#showmoreCont" ).toggle();
-  $(window).scrollTop(0);
+  $( "#cv" ).slideToggle('slow');
+  $( "#showmoreCont" ).toggle("slow");
+  $('html, body').animate({
+        scrollTop: $("#cv").offset().top
+    }, 1500);
 };
 

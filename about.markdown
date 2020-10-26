@@ -4,8 +4,6 @@ title: About me
 permalink: /
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- <script src="{{ base.url | prepend: site.url }}/assets/script-aboutme.js"></script> -->
-<!-- <script src="assets/js/script_aboutme.js"></script> -->
 <script type="text/javascript" src="assets/js/script-aboutme.js"></script>
 <!-- <script>
 
@@ -203,7 +201,7 @@ list-style: none;
   </div>
 
 <div class='container SocialLink'>
-  <a target="\_blank" class='showmore' onclick="toggle_more()">
+  <a href='#' class='showmore' onclick="toggle_more()">
     <div class="row d-flex justify-content-center ">
       <i  class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
     </div>
@@ -215,7 +213,7 @@ list-style: none;
 
 
 <div class='container SocialLink' id='showmoreCont' style="display: inline">
-  <a target="\_blank" class='showmore' onclick="toggle_more()">
+  <a href='#' class='showmore' onclick="toggle_more()">
     <div class="row d-flex justify-content-center ">
       <i id='showmorebtn' class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
     </div>
