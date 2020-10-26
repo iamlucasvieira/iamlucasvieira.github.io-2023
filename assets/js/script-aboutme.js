@@ -8,10 +8,10 @@ function toggle_more(){
 
 function toggle_less(){
   $( "#cv" ).slideToggle();
-  
+  $( "#showmoreCont" ).slideToggle();
   $('html, body').animate({
         scrollTop: 0
     }, 1000);
-  $( "#showmoreCont" ).slideToggle();
+  
 };
 
