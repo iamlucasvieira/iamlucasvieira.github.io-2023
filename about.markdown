@@ -121,7 +121,7 @@ list-style: none;
   
   <div class="row d-flex justify-content-center">
     <div class="col-12  p-0 " >
-      <div class='row d-flex justify-content-center mt-4 '>
+      <div class='row d-flex justify-content-center mt-2 '>
         <img src="/assets/images/me.jpg" alt=""  style="width:150px;height: 150px">
       </div>
     <!--   <div class='row mt-4 SocialLink d-flex justify-content-around px-5 mx-2 '>
