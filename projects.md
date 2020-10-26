@@ -7,12 +7,6 @@ permalink: /projects
 
 
 <style>
-/*.projects a:hover,.projects  a:visited,.projects  a:link,.projects  a:active
-{
-    text-decoration: none;
-    color: black;
-    font-weight:bold;
-}*/
 
 .projects li{
     margin-bottom:15px;
