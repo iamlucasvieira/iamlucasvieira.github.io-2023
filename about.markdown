@@ -128,11 +128,11 @@ list-style: none;
       Hello, I'm <b>Lucas Vieira dos Santos</b>, a Brazilian fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
       With Python, my go-to language, I've worked on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning.
     </div>
-    <div class="col-12 col-lg-3 p-0  " >
-      <div class='row order-2'>
-      <img src="/assets/images/me.jpg" alt="" class="center mt-4 mt-lg-0"    style="width:150px;">
+    <div class="col-12 col-lg-3 p-0 " >
+      <div class='row'>
+      <img src="/assets/images/me.jpg" alt="" class="center mt-4 mt-lg-0"  style="width:150px;">
     </div>
-      <div class='row mt-4 SocialLink d-flex justify-content-around px-3 order-1'>
+      <div class='row mt-4 SocialLink d-flex justify-content-around px-3'>
         <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
         <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a> 
         <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>       
