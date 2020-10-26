@@ -9,20 +9,19 @@ permalink: /
 
 
 </script>
- -->
+-->
 <style>
 
 .showmore:hover{
-  cursor: pointer;
+cursor: pointer;
 }
 
-.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active
-{
+.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active, .SocialLink .showmore:visited, .SocialLink .showmore:link,  .SocialLink .showmore:visited{
 text-decoration: none;
 color: black;
 font-weight:bold;
 }
-.SocialLink a:hover{
+.SocialLink a:hover, .SocialLink .showmore:hover{
 color: gray;
 }
 img {
@@ -130,20 +129,18 @@ list-style: none;
     </div>
     <div class="col-12 col-lg-3 p-0 " >
       <div class='row'>
-      <img src="/assets/images/me.jpg" alt="" class="center mt-4 mt-lg-0"  style="width:150px;">
-    </div>
+        <img src="/assets/images/me.jpg" alt="" class="center mt-4 mt-lg-0"  style="width:150px;">
+      </div>
       <div class='row mt-4 SocialLink d-flex justify-content-around px-3'>
         <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-        <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a> 
-        <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>       
-        <a  href="https://lucas6eng.myportfolio.com/" title="Behance" target="\_blank"><i class="fa fa-behance fa-lg" aria-hidden="true"></i></a>     
-        <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i></a>       
+        <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+        <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        <a  href="https://lucas6eng.myportfolio.com/" title="Behance" target="\_blank"><i class="fa fa-behance fa-lg" aria-hidden="true"></i></a>
+        <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
 </div>
-
-
 
 
 <div id='cv' class="pt-4" style="display: none">
@@ -199,24 +196,19 @@ list-style: none;
       </li>
     </ul>
   </div>
-
-<div class='container SocialLink'>
-  <a href='#' class='showmore' onclick="toggle_more()">
-    <div class="row d-flex justify-content-center ">
-      <i  class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
-    </div>
-  </a>
-</div>
-
+  
+  <div class='container SocialLink'>
+      <div class="showmore row d-flex justify-content-center"  onclick="toggle_more()">
+        <i  class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
+      </div>
+  </div>
+  
 </div>
 
 
 
 <div class='container SocialLink' id='showmoreCont' style="display: inline">
-  <a href='#' class='showmore' onclick="toggle_more()">
-    <div class="row d-flex justify-content-center ">
+    <div class="showmore row d-flex justify-content-center"  onclick="toggle_more()">
       <i id='showmorebtn' class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
     </div>
-  </a>
 </div>
-
