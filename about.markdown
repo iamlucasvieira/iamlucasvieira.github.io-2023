@@ -64,7 +64,7 @@ position: relative;
 padding: 2em;
 position: relative;
 top: -1.875em;
-left: 2em;
+left: 1em;
 width: 99%;
 }
 .timeline-event-copy h3 {
@@ -148,7 +148,7 @@ list-style: none;
 
 
 
-<div id='cv' class="pt-4" style="display: None">
+<div id='cv' class="pt-4" style="display: none">
   <h1>Education</h1>
   <div class="container">
     <ul class="timeline mt-4">
