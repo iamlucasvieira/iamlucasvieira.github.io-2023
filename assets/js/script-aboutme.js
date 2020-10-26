@@ -7,11 +7,11 @@ function toggle_more(){
 };
 
 function toggle_less(){
-  $( "#cv" ).slideToggle();
+  $( "#cv" ).slideToggle('slow');
   $( "#showmoreCont" ).slideToggle();
   $('html, body').animate({
         scrollTop: 0
     }, 1000);
-  
+
 };
 
