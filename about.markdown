@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aboutme
 title: About me
 permalink: /
 ---
@@ -117,19 +117,33 @@ list-style: none;
 
 
 
-<div class="container pb-4">
-  <div class="row">
-    <div class="col-12 pl-0 pr-4 " style=' text-align: justify;' >
+<div class="container pb-2">
+  
+  <div class="row d-flex justify-content-center">
+    <div class="col-12  p-0 " >
+      <div class='row d-flex justify-content-center mt-4 '>
+        <img src="/assets/images/me.jpg" alt=""  style="width:150px;height: 150px">
+      </div>
+    <!--   <div class='row mt-4 SocialLink d-flex justify-content-around px-5 mx-2 '>
+        <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+        <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+        <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        <a  href="https://lucas6eng.myportfolio.com/" title="Behance" target="\_blank"><i class="fa fa-behance fa-lg" aria-hidden="true"></i></a>
+        <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i></a>
+      </div> -->
+    </div>
+  </div>
+
+  <div class="row mt-3 d-flex justify-content-center">
+    <div class="col-12 " style=' text-align: justify;' >
       Hello , I'm <b>Lucas Vieira dos Santos</b>, a Brazilian fascinated by any machine that flies. That's why I'm currently studying Aerospace engineering in the Netherlands. However, when I’m not watching or studying all things space, I’m very likely to be programming.<br><br>
       <!-- With Python, my go-to language, I've worked on many types of projects, such as engineering design, game development, and the creation of web applications. At the moment, I’m focusing on data science and how to use Python for Machine Learning. -->
     </div>
   </div>
+
   <div class="row d-flex justify-content-center">
-    <div class="col-6  p-0 " >
-      <div class='row d-flex justify-content-center mt-4 '>
-        <img src="/assets/images/me.jpg" alt=""  style="width:150px;height: 150px">
-      </div>
-      <div class='row mt-4 SocialLink d-flex justify-content-around px-5 mx-2 '>
+    <div class="col-12 col-lg-6 p-0" >
+      <div class='row mt-1 SocialLink d-flex justify-content-around px-5 mx-2 '>
         <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
         <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
         <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
@@ -138,10 +152,12 @@ list-style: none;
       </div>
     </div>
   </div>
+
+
 </div>
 
 
-<div id='cv' class="pt-4" style="display: none">
+<div id='cv' class="pt-4 mt-4" style="display: none">
   <h1>Education</h1>
   <div class="container">
     <ul class="timeline mt-4">
