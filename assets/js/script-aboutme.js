@@ -7,12 +7,11 @@ function toggle_more(){
 };
 
 function toggle_less(){
-	$('html, body').animate({
-        scrollTop: 0
-    }, 1000);
   $( "#cv" ).slideToggle('slow');
   $( "#showmoreCont" ).slideToggle();
-  
+  $('html, body').animate({
+        scrollTop: 0
+    }, 1000);
 
 };
 
