@@ -221,8 +221,8 @@ list-style: none;
 
 
 
-<div class='container SocialLink mt-4' id='showmoreCont' style="display: inline">
-    <div class=" row d-flex justify-content-center"  >
+<div class='container SocialLink' id='showmoreCont' style="display: inline">
+    <div class=" row mt-4 d-flex justify-content-center"  >
       <i class="showmore fa fa-chevron-down fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
     </div>
 </div>
