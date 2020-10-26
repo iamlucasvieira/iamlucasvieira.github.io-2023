@@ -6,3 +6,12 @@ function toggle_more(){
     }, 1000);
 };
 
+function toggle_less(){
+  $( "#cv" ).slideToggle();
+  
+  $('html, body').animate({
+        scrollTop: 0
+    }, 1000);
+  $( "#showmoreCont" ).slideToggle();
+};
+
