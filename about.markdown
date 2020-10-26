@@ -125,7 +125,7 @@ list-style: none;
     </div>
     <div class="col-12 col-lg-3 p-0 " >
       <div class='row d-flex justify-content-center'>
-        <img src="/assets/images/me.jpg" alt="" class="mt-4 mt-lg-0"  style="width:150px;">
+        <img src="/assets/images/me.jpg" alt="" class="mt-4 mt-lg-0"  style="width:80%;">
       </div>
       <div class='row mt-4 SocialLink d-flex justify-content-around px-3'>
         <a  href="mailto:lucas6eng@gmail.com" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
