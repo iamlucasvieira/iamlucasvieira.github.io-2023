@@ -91,7 +91,14 @@ margin-bottom: 1.2em;
 padding: 0.25em 1em 0.25em 1em;
 }
 
+.post-content{
+  margin-bottom: 0;
+}
 
+.page-content {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
 
 </style>
 
@@ -193,7 +200,7 @@ padding: 0.25em 1em 0.25em 1em;
 
 
 <div class='container SocialLink' id='showmoreCont' style="display: inline">
-  <div class=" row mt-4 d-flex justify-content-center"  >
+  <div class=" row mt-3 d-flex justify-content-center"  >
     <i class="showmore fa fa-chevron-down fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
   </div>
 </div>
