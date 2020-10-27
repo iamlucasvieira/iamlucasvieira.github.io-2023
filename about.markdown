@@ -35,6 +35,7 @@ border-radius: 50%;
 margin: 4em auto;
 position: relative;
 max-width: 46em;
+list-style: none;
 }
 
 .timeline:before {
@@ -90,10 +91,10 @@ margin-bottom: 1.2em;
 padding: 0.25em 1em 0.25em 1em;
 }
 
-ul{
+/*ul{
 list-style: none;
 }
-
+*/
 
 </style>
 
