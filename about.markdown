@@ -139,7 +139,7 @@ list-style: none;
 </div>
 
 
-<div id='cv' class="pt-4 mt-4" style="display: block;">
+<div id='cv' class="pt-4 mt-4" style="display: none;">
   <div class="container">
     <h1>Education</h1>
     <ul class="timeline mt-4">
