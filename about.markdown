@@ -121,7 +121,7 @@ padding: 0.25em 1em 0.25em 1em;
         <a  href="https://www.linkedin.com/in/lucasvsantos/" title="LinkedIn" target="\_blank" ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
         <a  href="https://github.com/iamlucassantos" title="GitHub" target="\_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         <a  href="https://lucas6eng.myportfolio.com/" title="Behance" target="\_blank"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a>
-        <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-id-card fa-2x" aria-hidden="true"></i></a>
+        <a  href="{{ site.url }}/download/LucasSantosCV.pdf" title="Resume" target="\_blank"><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
