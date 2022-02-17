@@ -3,106 +3,13 @@ layout: aboutme
 title: About me
 permalink: /
 ---
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
 <script type="text/javascript" src="assets/js/script-aboutme.js"></script>
-<!-- <script>
-
-
-</script>
--->
 <style>
 
-.showmore:hover{
-cursor: pointer;
-}
-
-.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active, .SocialLink .showmore:visited, .SocialLink .showmore:link,  .SocialLink .showmore:visited{
-text-decoration: none;
-color: black;
-font-weight:bold;
-}
-
-.SocialLink a:hover, .SocialLink .showmore:hover{
-color: gray;
-}
-
-img {
-border-radius: 50%;
-}
-
-/* Styling */
-.timeline {
-margin: 4em auto;
-position: relative;
-max-width: 46em;
-list-style: none;
-}
-
-.timeline:before {
-background-color: black;
-content: '';
-margin-left: -1px;
-position: absolute;
-top: 0;
-left: 0em;
-width: 2px;
-height: 100%;
-}
-
-.timeline-event {
-position: relative;
-}
-
-.timeline-event-copy {
-padding-top: 2em;
-padding-left: 2em;
-/*padding-top: 2em;*/
-position: relative;
-top: -1.875em;
-left: 0em;
-width: 100%;
-}
-
-.timeline-event-copy h3 {
-font-size: 1.75em;
-margin-bottom: 0.4em;
-}
-
-.timeline-event-copy h4 {
-font-size: 1.2em;
-margin-bottom: 1.2em;
-}
-
-.timeline-event-copy strong {
-font-weight: 700;
-}
-
-.timeline-event-copy p:not(.timeline-event-thumbnail) {
-padding-bottom: 1em;
-}
-
-
-.timeline-event-thumbnail {
-color: white;
-font-size: 0.88em;
-background-color: black;
-display: inline-block;
-margin-bottom: 1.2em;
-padding: 0.25em 1em 0.25em 1em;
-}
-
-.post-content{
-  margin-bottom: 0;
-}
-
-.page-content {
-    padding-top: 10px;
-    padding-bottom: 0;
-}
-
 </style>
-
-
 
 <div class="container">
   
@@ -132,64 +39,85 @@ padding: 0.25em 1em 0.25em 1em;
       </div>
     </div>
   </div>
-  
-  
 </div>
 
+<!-- {% for member in site.data.cv.experience %}
+  {{ member.name }}
+{% endfor %} -->
+
+ <div class='container' id='new_cv'>
+    
+
+    
+    
+  </div>
 
 <div id='cv' class="pt-4 mt-4" style="display: none;">
+
+
+ 
+
+
   <div class="container">
     <h1>Education</h1>
-    <ul class="timeline mt-4">
-      <li class="timeline-event">
-        <p class="timeline-event-thumbnail">Sep 2018 - Current</p>
-        <div class="timeline-event-copy">
-          <h3>Bsc Aerospace Engineering </h3>
-          <h4>Delft University of Technology</h4>
-          <p><strong>Fields of study</strong><br>Aerodynamics, Propulsion & Power Systems, Engineering & Aerospace Design, Applied Numerical Analysis, Computational Modelling, Aerospace Materials &
-          Structures, and Aerospace Flight Dynamics</p>
+
+    {% for member in site.data.cv.education %}
+    
+    <div class="col-12 p-4 mb-3 bg-light rounded">
+      <div class="row mb-1"> 
+        <div class="col-8">
+          <h3 class="p-0 m-0">{{ member.name }}</h3>
         </div>
-      </li>
-      <li class="timeline-event">
-        <p class="timeline-event-thumbnail">Sep 2020 - Current</p>
-        <div class="timeline-event-copy">
-          <h3>Computer Science Minor</h3>
-          <h4>Delft University of Technology</h4>
-          <p><strong>Fields of study</strong><br>Modern software development and Data Science</p>
-          <p><strong>Main courses</strong><br>Algorithms and Data Structures, Software Engineering Methods, Data Analytics, and Visual Data Processing</p>
+        <div class="col-4 text-right ">
+          <div class="mt-2">{{ member.date }}</div>
         </div>
-      </li>
-      <li class="timeline-event">
-        <p class="timeline-event-thumbnail">Aug 2015 - Aug 2017 (Incomplete)</p>
-        <div class="timeline-event-copy">
-          <h3>Bsc Mechanical Engineering</h3>
-          <h4>Universidade do Estado do Rio de Janeiro</h4>
-          <p>- Studies were frozen due to emigration to the Netherlands<br>
-            - Average grade at the termination of 8.63 <br>
-          - Admitted through 'Vestibular UERJ' (full scholarship based on academic merit)</p>
-        </div>
-      </li>
-    </ul>
+      
+      </div>
+
+      <h5 class="mb-3 text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+      </h5>
+      
+      <ul>
+        {% for item in member.description %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+
+    {% endfor %}
   </div>
   
   
-  <div class="container">
+  <div class="container mt-4">
     <h1>Experience</h1>
-    <ul class="timeline mt-4">
-      <li class="timeline-event">
-        <p class="timeline-event-thumbnail">Jul 2016 - Aug 2016</p>
-        <div class="timeline-event-copy">
-          <h3>Logistic Assistant </h3>
-          <h4>OBS - Olympic Broadcasting Services</h4>
-          <p>
-            - Freelance paid employment during the 2016 Olympic Games in Rio de Janeiro<br>
-          - Responsible for the creation and distribution of logistical plans for the OBS crew, including bus and meal schedules, expense reports, inventory records, and call sheets<br></p>
+
+    {% for member in site.data.cv.experience %}
+    
+    <div class="col-12 p-4 mb-3 bg-light rounded">
+      <div class="row mb-1"> 
+        <div class="col-8">
+          <h3 class="p-0 m-0">{{ member.name }}</h3>
         </div>
-      </li>
-    </ul>
+        <div class="col-4 text-right ">
+          <div class="mt-2">{{ member.date }}</div>
+        </div>
+      
+      </div>
+
+      <h5 class="mb-3 text-muted">{{ member.place }}</h5>
+      
+      <ul>
+        {% for item in member.description %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% endfor %}
   </div>
   
-  <div class='container SocialLink'>
+  <div class='container SocialLink mb-4'>
     <div class="row d-flex justify-content-center" >
       <i  class="showmore fa fa-chevron-up fa-2x" aria-hidden="true" onclick="toggle_less()"></i>
     </div>
@@ -197,9 +125,7 @@ padding: 0.25em 1em 0.25em 1em;
   
 </div>
 
-
-
-<div class='container SocialLink' id='showmoreCont' style="display: inline">
+<div class='container SocialLink mb-4' id='showmoreCont' style="display: inline">
   <div class=" row mt-3 d-flex justify-content-center"  >
     <i class="showmore fa fa-chevron-down fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
   </div>

@@ -1,0 +1,55 @@
+{
+    "experience": 
+        [
+        {
+            "name": "Recovery simulations Engineer" ,
+            "place": "Delft Aerospace Rocket Engineering (DARE)" ,
+            "date": "Sep 2020 - Jul 2021",
+            "description": [
+                "Developed a wind tunnel simulator in Python and C++ focused on the effects of in-flight parachute deployment",
+                "Provided direction and set goals for a team of two developers. Organized and hosted meetings to track the development progress"
+            ]
+        },
+        {
+            "name": "Logistic Assistant " ,
+            "place": "Olympic Broadcasting Services (OBS)" ,
+            "date": "Jul 2016 - Aug 2016",
+            "description": [
+                "Worked as a freelancer during the 2016 Olympic Games in Rio de Janeiro",
+                "Planned the transportation and meal logistics of an Olympic Games’ filming crew"
+            ]
+        }
+    ],
+
+    "education": [
+
+        {
+            "name": "MSc Control & Simulation",
+            "place": "Delft University of Technology",
+            "date": "Sep 2021 - current",
+            "description": ["Relevant Coursework: Automatic Flight Control Systems, Intelligent Control Systems, and Stochastic Aerospace Systems"]
+        },
+        {
+            "name": "BSc Aerospace Engineering",
+            "place": "Delft University of Technology",
+            "gpa": 8.0,
+            "date": "Sep 2018 - Sep 2021",
+            "description": [
+                "Relevant Coursework: Signal Analysis and Telecommunication Principles, Aerospace Systems and Control Theory, and Simulation, Verification & Validation",
+                "Completed a minor in Computer Science with an 8.4 GPA"
+            ]
+        },
+
+        {
+            "name": "High School ",
+            "place": "Colégio Pedro II",
+            "gpa": 8.1,
+            "date": "Feb 2012 – Mar 2015",
+            "description": [
+                "Admitted with a full scholarship based on a selective entry exam"
+            ]
+        }
+
+
+    ]
+}
