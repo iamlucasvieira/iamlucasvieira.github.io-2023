@@ -46,37 +46,30 @@ permalink: /
 {% endfor %} -->
 
  <div class='container' id='new_cv'>
-    
 
-    
-    
+
   </div>
 
 <div id='cv' class="pt-4 mt-4" style="display: none;">
-
-
- 
-
 
   <div class="container">
     <h1>Education</h1>
 
     {% for member in site.data.cv.education %}
-    
+
     <div class="col-12 p-4 mb-3 bg-light rounded">
-      <div class="row mb-1"> 
-        <div class="col-8">
+      <div class="row mb-1">
+        <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
+          <div class="mt-2 text-muted">{{ member.date }}</div>
+        </div>
+        <div class="col-12 col-md-8">
           <h3 class="p-0 m-0">{{ member.name }}</h3>
         </div>
-        <div class="col-4 text-right ">
-          <div class="mt-2">{{ member.date }}</div>
-        </div>
-      
       </div>
 
       <h5 class="mb-3 text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
       </h5>
-      
+
       <ul>
         {% for item in member.description %}
           <li>{{ item }}</li>
@@ -86,6 +79,7 @@ permalink: /
 
 
     {% endfor %}
+
   </div>
   
   
@@ -93,20 +87,19 @@ permalink: /
     <h1>Experience</h1>
 
     {% for member in site.data.cv.experience %}
-    
+
     <div class="col-12 p-4 mb-3 bg-light rounded">
-      <div class="row mb-1"> 
-        <div class="col-8">
+      <div class="row mb-1">
+        <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
+          <div class="mt-2 text-muted">{{ member.date }}</div>
+        </div>
+        <div class="col-12 col-md-8">
           <h3 class="p-0 m-0">{{ member.name }}</h3>
         </div>
-        <div class="col-4 text-right ">
-          <div class="mt-2">{{ member.date }}</div>
-        </div>
-      
       </div>
-
-      <h5 class="mb-3 text-muted">{{ member.place }}</h5>
       
+      <h5 class="mb-3 text-muted">{{ member.place }}</h5>
+
       <ul>
         {% for item in member.description %}
           <li>{{ item }}</li>
@@ -115,6 +108,7 @@ permalink: /
     </div>
 
     {% endfor %}
+
   </div>
   
   <div class='container SocialLink mb-4'>
