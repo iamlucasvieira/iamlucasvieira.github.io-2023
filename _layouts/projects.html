@@ -9,8 +9,9 @@
   <body>
 
     {% include header.html %}
-
+    
     <main class="page-content" aria-label="Content">
+
       <div class="wrapper">
 
 
@@ -19,10 +20,16 @@
           <header class="post-header">
             <h1 class="post-title">{{ page.title | escape }}</h1>
           </header>
+
           {{ content }}
 
-          <ul class="post-list">
+          <!-- <ul class="post-list">
             {% for post in site.projects %}
+
+
+            
+
+
               <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,7 +39,49 @@
                 </h2>
               </li>
             {% endfor %}
-          </ul>
+          </ul> -->
+
+
+          <div class="container">
+            <div class="row">
+              {% for project in site.projects reversed %}
+              <!-- <a href="{{ project.url | relative_url }}" style="display: block"> -->
+              <div class="col-12 col-md-6 p-2 position-relative"  >
+              <div class="col-12 p-4 h-100 bg-light rounded">
+                <h4>{{ project.title }}</h4>
+                <p>{{ project.description }}</p>
+                <a href="{{ project.url | relative_url }}" class="stretched-link"></a>
+              </div>
+              </div>
+              
+              {% endfor %}
+            </div>
+          </div>
+
+          <!-- <div class="container">
+            {% for post in site.projects %}
+            <div class="col-6 p-4 mb-3 bg-light rounded">
+              <div class="row mb-1">
+                <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
+                  <div class="mt-2 text-muted">{{ post.date }}</div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <h3 class="p-0 m-0">{{ post.title }}</h3>
+                </div>
+              </div>
+        
+              <h5 class="mb-3 text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+              </h5>
+        
+              <ul>
+                {% for item in member.description %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+        
+            {% endfor %}
+          </div> -->
 
 
         </div>
@@ -40,6 +89,10 @@
 
 
       </div>
+
+      
+      
+
     </main>
 
     {% include footer.html %}

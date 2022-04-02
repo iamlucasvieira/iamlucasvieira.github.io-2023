@@ -45,7 +45,7 @@ permalink: /
  <div class='container' id='new_cv'>
 
 
-  </div>
+</div>
 
 <div id='cv' class="pt-4 mt-4" style="display: none;">
 
