@@ -1,9 +1,10 @@
 ---
-layout: "post"
+layout: "project"
 title: "ISA Calculator"
 date: "2020-03-30 11:45:10"
-description: "Python calculator of density, pressure, and temperature based on the International Standard Atmosphere (ISA)."
-link: "https://github.com/iamlucassantos/ISA-Altitude"
+description: "International Standard Atmosphere (ISA) calculator."
+source: "https://github.com/iamlucassantos/ISA-Altitude"
+tech: ["Python"]
 ---
 
 

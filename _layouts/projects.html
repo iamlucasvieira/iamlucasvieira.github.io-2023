@@ -48,12 +48,19 @@
               <!-- <a href="{{ project.url | relative_url }}" style="display: block"> -->
               <div class="col-12 col-md-6 p-2 position-relative"  >
               <div class="col-12 p-4 h-100 bg-light rounded">
+                <div class="d-flex h-100 flex-column">
                 <h4>{{ project.title }}</h4>
                 <p>{{ project.description }}</p>
+               
+                <div class="mt-auto">
+                {% for tech in project.tech %}
+                <button type="button" class="btn btn-outline-dark btn-sm" disabled>{{ tech }}</button>
+                {% endfor %}    
+                </div>   
                 <a href="{{ project.url | relative_url }}" class="stretched-link"></a>
               </div>
               </div>
-              
+            </div>
               {% endfor %}
             </div>
           </div>
