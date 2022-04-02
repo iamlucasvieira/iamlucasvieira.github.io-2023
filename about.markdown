@@ -41,9 +41,6 @@ permalink: /
   </div>
 </div>
 
-<!-- {% for member in site.data.cv.experience %}
-  {{ member.name }}
-{% endfor %} -->
 
  <div class='container' id='new_cv'>
 

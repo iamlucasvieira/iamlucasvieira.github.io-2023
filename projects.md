@@ -1,10 +1,8 @@
 ---
-layout: page
-title: "Projects"
+layout: projects
+title: Projects
 permalink: /projects
-
 ---
-
 
 <style>
 
@@ -13,9 +11,6 @@ permalink: /projects
 }
 
 </style>
-
-
-
 
 <!-- * <a class="project" href="https://github.com/iamlucassantos/ILIKETHISBOOK"  target="\_blank">I LIKE THIS BOOK</a> <br>
 Book review web application built with HTML/CSS, SASS, Python, SQL and Flask.
@@ -34,8 +29,6 @@ Connect4 made with Python
 
 * <a href="https://gist.github.com/iamlucassantos/4d8c5809f19245592fd54faab34226a9" target="\_blank">Animals Guesser</a><br>
 Game created with Python with a basic concept of Machine Learning. -->
-
-
 
 <div class="projects">
 <ul>
