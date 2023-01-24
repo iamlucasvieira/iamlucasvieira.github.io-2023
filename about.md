@@ -4,12 +4,10 @@ title: About me
 permalink: /
 ---
 
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="/assets/css/styles.css">
-<script type="text/javascript" src="assets/js/script-aboutme.js"></script>
-<style>
+<h3>👋 Hey there, I'm Lucas!</h3>
+<p>I am an aerospace engineering student on a journey to combine my two greatest passions: <u>aviation</u> and <u>programming</u>. I am committed to unlocking the full potential of Intelligent Flight Control Systems through <u>Machine Learning</u>. The boundless potential of these technologies fuels my passion and makes me eager to contribute to the skies of the future.</p> 
+<p>You can see my code on <i class="fa fa-github"></i> GitHub and contact me by email. I behave professionally on  LinkedIn, and you can see my background on my resume.</p>
 
-</style>
 
 <div class="container">
   
