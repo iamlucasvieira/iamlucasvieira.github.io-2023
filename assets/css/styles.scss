@@ -12,25 +12,25 @@ h1, h2 {
 }
 
 // Colors for social links
-.showmore:hover {
-  cursor: pointer;
-}
+// .showmore:hover {
+//   cursor: pointer;
+// }
 
-.SocialLink a:visited,
-.SocialLink a:link,
-.SocialLink a:active,
-.SocialLink .showmore:visited,
-.SocialLink .showmore:link,
-.SocialLink .showmore:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
+// .SocialLink a:visited,
+// .SocialLink a:link,
+// .SocialLink a:active,
+// .SocialLink .showmore:visited,
+// .SocialLink .showmore:link,
+// .SocialLink .showmore:visited {
+//   text-decoration: none;
+//   color: black;
+//   font-weight: bold;
+// }
 
-.SocialLink a:hover,
-.SocialLink .showmore:hover {
-  color: gray;
-}
+// .SocialLink a:hover,
+// .SocialLink .showmore:hover {
+//   color: gray;
+// }
 
 // profile image
 img.profile_pic{
@@ -46,4 +46,18 @@ img.profile_pic{
   width: 40%;
   height: auto;
   margin-right: 5px;
+}
+
+a:visited,
+a:link,
+a:active
+ {
+  text-decoration: none;
+  color: rgba(0,0,0,.55);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(0,0,0,.7);
+
 }
