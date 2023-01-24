@@ -48,9 +48,9 @@ plugins:
 
       # Values
 header_pages:
-  - about.markdown
+  - about.md
   - projects.md
-  - index.markdown
+  - index.md
 
 # disqus:
 #   shortname: iamlucassantos

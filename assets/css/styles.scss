@@ -1,99 +1,105 @@
 ---
 ---
 
-.showmore:hover{
-cursor: pointer;
+@import "minima";
+
+.showmore:hover {
+  cursor: pointer;
 }
 
-.SocialLink  a:visited,.SocialLink  a:link,.SocialLink  a:active, .SocialLink .showmore:visited, .SocialLink .showmore:link,  .SocialLink .showmore:visited{
-text-decoration: none;
-color: black;
-font-weight:bold;
+.SocialLink a:visited,
+.SocialLink a:link,
+.SocialLink a:active,
+.SocialLink .showmore:visited,
+.SocialLink .showmore:link,
+.SocialLink .showmore:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-.SocialLink a:hover, .SocialLink .showmore:hover{
-color: gray;
+.SocialLink a:hover,
+.SocialLink .showmore:hover {
+  color: gray;
 }
 
 img {
-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Styling */
 .timeline {
-margin: 4em auto;
-position: relative;
-max-width: 46em;
-list-style: none;
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+  list-style: none;
 }
 
 .timeline:before {
-background-color: black;
-content: '';
-margin-left: -1px;
-position: absolute;
-top: 0;
-left: 0em;
-width: 2px;
-height: 100%;
+  background-color: black;
+  content: "";
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 0em;
+  width: 2px;
+  height: 100%;
 }
 
 .timeline-event {
-position: relative;
+  position: relative;
 }
 
 .timeline-event-copy {
-padding-top: 2em;
-padding-left: 2em;
-/*padding-top: 2em;*/
-position: relative;
-top: -1.875em;
-left: 0em;
-width: 100%;
+  padding-top: 2em;
+  padding-left: 2em;
+  /*padding-top: 2em;*/
+  position: relative;
+  top: -1.875em;
+  left: 0em;
+  width: 100%;
 }
 
 .timeline-event-copy h3 {
-font-size: 1.75em;
-margin-bottom: 0.4em;
+  font-size: 1.75em;
+  margin-bottom: 0.4em;
 }
 
 .timeline-event-copy h4 {
-font-size: 1.2em;
-margin-bottom: 1.2em;
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
 }
 
 .timeline-event-copy strong {
-font-weight: 700;
+  font-weight: 700;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
-padding-bottom: 1em;
+  padding-bottom: 1em;
 }
-
 
 .timeline-event-thumbnail {
-color: white;
-font-size: 0.88em;
-background-color: black;
-display: inline-block;
-margin-bottom: 1.2em;
-padding: 0.25em 1em 0.25em 1em;
+  color: white;
+  font-size: 0.88em;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.25em 1em;
 }
 
-.post-content{
-    margin-bottom: 0;
+.post-content {
+  margin-bottom: 0;
 }
 
 .page-content {
-    padding-top: 10px;
-    padding-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 0;
 }
 
-.content-box{
-    background-color: black;
+.content-box {
+  background-color: black;
 
-    h1 {
-        font-size: 15px;
-    }
+  h1 {
+    font-size: 15px;
+  }
 }
-
