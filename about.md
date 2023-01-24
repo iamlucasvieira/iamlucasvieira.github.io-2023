@@ -1,20 +1,15 @@
 ---
 layout: aboutme
 title: About me
-permalink: /
+permalink: /me
 ---
-
-<h3>👋 Hey there, I'm Lucas!</h3>
-<p>I am an aerospace engineering student on a journey to combine my two greatest passions: <u>aviation</u> and <u>programming</u>. I am committed to unlocking the full potential of Intelligent Flight Control Systems through <u>Machine Learning</u>. The boundless potential of these technologies fuels my passion and makes me eager to contribute to the skies of the future.</p> 
-<p>You can see my code on <i class="fa fa-github"></i> GitHub and contact me by email. I behave professionally on  LinkedIn, and you can see my background on my resume.</p>
-
 
 <div class="container">
   
   <div class="row d-flex justify-content-center">
     <div class="col-12  p-0 " >
-      <div class='row d-flex justify-content-center mt-2 '>
-        <img src="/assets/images/me.jpg" alt=""  style="width:150px;height: 150px">
+      <div class='row d-flex justify-content-center mt-2'>
+        <img src="/assets/images/me.jpg" alt=""  class="profile_pic" style="width:150px;height: 150px">
       </div>
     </div>
   </div>
@@ -39,83 +34,46 @@ permalink: /
   </div>
 </div>
 
+<div class="container pt-4 mt-4">
+<h1>Education</h1>
 
- <div class='container' id='new_cv'>
-
-
-</div>
-
-<div id='cv' class="pt-4 mt-4" style="display: none;">
-
-  <div class="container">
-    <h1>Education</h1>
-
-    {% for member in site.data.cv.education %}
+{% for member in site.data.cv.education %}
 
     <div class="col-12 p-4 mb-3 bg-light rounded">
-      <div class="row mb-1">
-        <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
-          <div class="mt-2 text-muted">{{ member.date }}</div>
-        </div>
-        <div class="col-12 col-md-8">
-          <h3 class="p-0 m-0">{{ member.name }}</h3>
-        </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
+        <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
       </div>
-
-      <h5 class="mb-3 text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
-      </h5>
-
-      <ul>
+      <span class="text-muted mb-2">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+      </span>
+      <ul class="mt-2">
         {% for item in member.description %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
     </div>
 
+{% endfor %}
 
-    {% endfor %}
-
-  </div>
-  
-  
-  <div class="container mt-4">
+</div>
+<div class="container mt-4">
     <h1>Experience</h1>
-
-    {% for member in site.data.cv.experience %}
+{% for member in site.data.cv.experience %}
 
     <div class="col-12 p-4 mb-3 bg-light rounded">
-      <div class="row mb-1">
-        <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
-          <div class="mt-2 text-muted">{{ member.date }}</div>
-        </div>
-        <div class="col-12 col-md-8">
-          <h3 class="p-0 m-0">{{ member.name }}</h3>
-        </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
+        <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
       </div>
-      
-      <h5 class="mb-3 text-muted">{{ member.place }}</h5>
-
-      <ul>
+      <span class="text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+      </span>
+      <ul class="mt-2">
         {% for item in member.description %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
     </div>
 
-    {% endfor %}
+{% endfor %}
 
-  </div>
-  
-  <div class='container SocialLink mb-4'>
-    <div class="row d-flex justify-content-center" >
-      <i  class="showmore fa fa-chevron-up fa-2x" aria-hidden="true" onclick="toggle_less()"></i>
-    </div>
-  </div>
-  
-</div>
-
-<div class='container SocialLink mb-4' id='showmoreCont' style="display: inline">
-  <div class=" row mt-3 d-flex justify-content-center"  >
-    <i class="showmore fa fa-chevron-down fa-2x" aria-hidden="true" onclick="toggle_more()"></i>
-  </div>
 </div>

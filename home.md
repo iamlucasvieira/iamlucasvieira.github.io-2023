@@ -1,0 +1,12 @@
+---
+layout: aboutme
+title: Home
+permalink: /
+---
+<div class="mt-4">
+<h2> Hey there, I'm Lucas! 👋 </h2>
+<p>
+I use my passion for aviation and programming to develop software for the aerospace industry. You can find my code on <a href="https://github.com/iamlucassantos" class="SocialLink" ><i class="fa fa-github"></i> GitHub</a>, see my background on <a href="https://www.linkedin.com/in/lucasvsantos/" ><i class="fa fa-linkedin"></i> Linkedin</a> and contact me by <a href="mailto:lucas6eng@gmail.com" ><i class="fa fa-envelope"></i> email.</a>
+<!-- - <i>My code?</i> <a href="https://github.com/iamlucassantos" ><i class="fa fa-github"></i> GitHub </a>
+- <i>My background?</i> <a href="https://www.linkedin.com/in/lucasvsantos/" ><i class="fa fa-linkedin"></i> Linkedin</a>
+- <i>Questions?</i> <a href="mailto:lucas6eng@gmail.com" ><i class="fa fa-envelope"></i> email</a> -->
