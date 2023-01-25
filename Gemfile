@@ -31,3 +31,5 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem 'jekyll-titles-from-headings'
 
 gem "webrick", "~> 1.7"
+gem "jekyll-remote-theme"
+

@@ -19,22 +19,30 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Lucas Vieira
-email: lucas6eng@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   by Lucas Santos
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iamlucassantos.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: lucasvsantos
-github_username:  iamlucassantos
-twitter_username: lucas6eng
-author: "Lucas Vieira"
+author: 
+  name: Lucas Vieira
+  email: "lucas6eng@gmail.com"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
+remote_theme: jekyll/minima
 
+minima:
+  skin: solarized-dark
+  # social_links:
+  #   github: iamlucassantos
+  #   linkedin: lucasvsantosd
+  #   twitter: lucas6eng
+  
 # defaults:
 #   -
 #     scope:

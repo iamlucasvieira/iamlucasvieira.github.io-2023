@@ -39,8 +39,7 @@ permalink: /me
 <h1>Education</h1>
 
 {% for member in site.data.cv.education %}
-
-    <div class="col-12 p-4 mb-3 bg-light rounded">
+    <div class="col-12 p-4 mb-3 bg-dark rounded">
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
         <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
@@ -53,15 +52,13 @@ permalink: /me
         {% endfor %}
       </ul>
     </div>
-
 {% endfor %}
 
 </div>
 <div class="container mt-4">
     <h1>Experience</h1>
 {% for member in site.data.cv.experience %}
-
-    <div class="col-12 p-4 mb-3 bg-light rounded">
+    <div class="col-12 p-4 mb-3 bg-dark rounded">
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
         <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
@@ -74,7 +71,6 @@ permalink: /me
         {% endfor %}
       </ul>
     </div>
-
 {% endfor %}
 
 </div>
