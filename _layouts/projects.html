@@ -14,7 +14,9 @@ layout: page
                   <h5 class="card-title">{{ project.name }}</h5>
                   <p class="card-text">{{ project.description }}</p>
                   {% if project.post %}
-                    <a href="{% link _posts/{{ project.post }}%}" class="stretched-link"></a>
+          
+
+                    <a href="{{ project.post | liquify }}" class="stretched-link"></a>
                   {% endif %}
                 </div>
               </div>
