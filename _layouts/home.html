@@ -1,50 +1,11 @@
+---
+layout: default
+---
+{{ content }}
+<h2 class="nt-3"> Hey, I'm Lucas! 👋 </h2>
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-
-
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-
-
-        <div class="home">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title | escape }}</h1>
-          </header>
-          {{ content }}
-
-          <ul class="post-list">
-            {% for post in site.posts %}
-              <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-              </li>
-            {% endfor %}
-          </ul>
-
-
-        </div>
-
-
-
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<p class="lead"> 
+    An aerospace engineering student who loves aviation and software development.
+</p>
+<span class="text-muted"> <a target="_blank" href="{{ site.author.github }}" class="SocialLink"> <u>GitHub</u></a> / <a target="_blank" href="{{ site.author.linkedin }}" ><u>LinkedIn</u></a> /  <a href="{{ site.author.resume }}" target="_blank" ><u>Resume</u></a> / <a target="_blank" href="mailto:{{ site.author.email }}" ><u>Email</u></a></span>
+</div>

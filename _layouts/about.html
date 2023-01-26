@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<div class="container">
+  
+  <div class="row d-flex justify-content-center">
+    <div class="col-12  p-0 " >
+      <div class='row d-flex justify-content-center mt-2'>
+        <img src="/assets/images/me.jpg" alt=""  class="profile_pic" style="width:150px;height: 150px">
+      </div>
+    </div>
+  </div>
+  
+   
+  <div class="row mt-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 p-0" >
+      <div class='row d-flex justify-content-around px-5 mx-1'>
+        <a  href="{{ site.author.github }}" title="GitHub" target="\_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+        <a  href="{{ site.author.linkedin }}" title="LinkedIn" target="\_blank" ><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+        <a  href="mailto:{{ site.author.email }}" title="Email" target="\_blank" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+        <a  href="{{ site.author.resume }}" title="Resume" target="\_blank"><i class="fa fa-paperclip fa-lg" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="row mt-3 d-flex justify-content-center">
+    <div class="col-12 " style=' text-align: justify;' >
+        {{ content }}
+    </div>
+  </div>
+
+
+<div class="row pt-4 mt-4">
+  <div class="col-12">
+  <h1>Education</h1>
+  </div>
+</div>
+
+
+
+{% for member in site.data.cv.education %}
+  <div class="card bg-dark mb-3">
+    <div class="card-header">
+      <div class="row d-flex justify-content-between">
+      <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
+      <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
+      </div>
+      <span class="text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+      </span>
+    </div>
+    <div class="card-body">
+      <ul>
+      {% for item in member.description %}
+      <li>{{ item }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+
+<div class="row mt-4">
+ <div class="col-12">
+    <h1>Experience</h1>
+  </div>
+</div>
+
+{% for member in site.data.cv.experience %}
+<div class="card bg-dark mb-3">
+  <div class="card-header">
+    <div class="row d-flex justify-content-between">
+    <div class="col-12 col-md-7"><h4 class="p-0 m-0">{{ member.name}}</h4></div>
+    <div class="col-12 col-md-5"><span class="text-muted float-md-right">{{member.date}}</span></div>
+    </div>
+    <span class="text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
+    </span>
+  </div>
+  <div class="card-body">
+    <ul>
+    {% for item in member.description %}
+    <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endfor %}
+

@@ -27,6 +27,9 @@ url: "https://iamlucassantos.github.io/" # the base hostname & protocol for your
 author: 
   name: Lucas Vieira
   email: "lucas6eng@gmail.com"
+  github: "https://github.com/iamlucassantos"
+  linkedin: "https://www.linkedin.com/in/lucasvsantos/"
+  resume: "https://docs.google.com/viewer?url=https://github.com/iamlucassantos/my-cv/raw/main/cv.pdf"
 
 # Build settings
 # theme: minima
@@ -43,7 +46,12 @@ minima:
   #   github: iamlucassantos
   #   linkedin: lucasvsantosd
   #   twitter: lucas6eng
-  
+
+# defaults:
+#   - scope:
+#       path: "assets/images"
+#     values:
+#       image: true
 # defaults:
 #   -
 #     scope:

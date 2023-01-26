@@ -1,46 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-
-
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-    
-    <main class="page-content" aria-label="Content">
-
-      <div class="wrapper">
-
-
-        <div class="home">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title | escape }}</h1>
-          </header>
+---
+layout: page
+---
 
           {{ content }}
 
-          <!-- <ul class="post-list">
-            {% for post in site.projects %}
-
-
-            
-
-
-              <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-              </li>
+    
+          <div class="row row-cols-1 row-cols-md-2">
+            {% for project in site.data.projects %}
+            <div class="col mb-4">
+              <div class="card bg-dark h-100">
+                <img src="{{ project.image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{ project.name }}</h5>
+                  <p class="card-text">{{ project.description }}</p>
+                  <a href="{{ project.url | relative_url }}" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
             {% endfor %}
-          </ul> -->
-
+            
+          </div>
 
           <div class="container-fluid">
             <div class="row">
@@ -65,45 +44,9 @@
             </div>
           </div>
 
-          <!-- <div class="container">
-            {% for post in site.projects %}
-            <div class="col-6 p-4 mb-3 bg-light rounded">
-              <div class="row mb-1">
-                <div class="col-12 col-md-4 text-md-right mb-md-0 mb-3 order-md-last">
-                  <div class="mt-2 text-muted">{{ post.date }}</div>
-                </div>
-                <div class="col-12 col-md-8">
-                  <h3 class="p-0 m-0">{{ post.title }}</h3>
-                </div>
-              </div>
-        
-              <h5 class="mb-3 text-muted">{{ member.place }}{% if member.gpa %},<em class='small'> GPA {{ member.gpa }}</em>{% endif %}
-              </h5>
-        
-              <ul>
-                {% for item in member.description %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-        
-            {% endfor %}
-          </div> -->
-
-
         </div>
 
 
 
-      </div>
-
       
       
-
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>

@@ -1,0 +1,35 @@
+---
+experience:
+  - name: "Software & Controls Engineering Intern"
+    place: Avy
+    date: "Apr. 2022 - Sep. 2022"
+    description:
+      - "Designed and implemented an automated testing tool to evaluate the status of the software and hardware of the drones developed at Avy, resulting in increased efficiency and reliability of the testing procedures"
+      - "Assisted in enhancing and maintaining existing in-house software, including the drone's PX4 autopilot and visualisation tools for flight data analysis"
+      - "Demonstrated expertise in developing software in Python and C++, as well as using software development tools such as Git and JIRA"
+  - name: "Recovery simulations Engineer"
+    place: Delft Aerospace Rocket Engineering (DARE)
+    date: "Sep. 2020 - Jul. 2021"
+    description:
+      - "Developed a wind tunnel simulator using Python and C++, which focused on analyzing the aerodynamic effects of in-flight parachute deployment"
+      - "Led a team of two developers, providing guidance, setting goals, and tracking progress"
+  - name: Logistic Asssistant
+    place: Olympic Broadcasting Services (OBS)
+    date: "Jul. 2016 - Aug. 2016"
+    description:
+      - "Coordinated and planned the transportation logistics for the 2016's Olympic Games filming crew, including transportation to venues, accommodations, and food facilities, ensuring efficient operations within the capacity constraints of the locations"
+            
+education:
+  - name: "MSc in Aerospace Control & Simulation"
+    place: "Delft University of Technology"
+    date: "Sep. 2021 - Current"
+    description:
+      - "Relevant coursework: Automatic Flight Control Systems, Intelligent control systems and System Identification"
+      - "Thesis work: Using machine learning techniques to build an autopilot that adapts to unexpected circumstances and failures, allowing the aircraft to remain stable and fly safely"
+  - name: "BSc in Aerospace Engineering"
+    place: "Delft University of Technology"
+    date: "Sep. 2018 - Sep. 2021"
+    description:
+      - "Relevant coursework: Flight Dynamics, Control Systems, and Aerodynamics"
+      - "Graduation project: Demonstrated strong team collaboration skills by working in a team of ten students on a space mission design. Coordinated the project plan and designed the spacecraft's attitude and determination control systems. The project earned a grade of 9.3 and placed second in the TU Delft Design/Synthesis symposium"
+      - "Completed a minor in Computer Science, gaining skills in software development and data analysis through various projects, final GPA of 8.4"
