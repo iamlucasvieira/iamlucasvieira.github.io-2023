@@ -13,7 +13,9 @@ layout: page
                 <div class="card-body">
                   <h5 class="card-title">{{ project.name }}</h5>
                   <p class="card-text">{{ project.description }}</p>
-                  <a href="{{ project.url | relative_url }}" class="stretched-link"></a>
+                  {% if project.post %}
+                    <a href="{% link _posts/{{ project.post }}%}" class="stretched-link"></a>
+                  {% endif %}
                 </div>
               </div>
             </div>
