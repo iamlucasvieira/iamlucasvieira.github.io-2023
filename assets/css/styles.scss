@@ -6,6 +6,8 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+@import "images";
+
 h1, h2 {
   font-weight: 700
 

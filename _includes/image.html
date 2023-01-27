@@ -1,0 +1,18 @@
+{% if include.color %} {% assign color = include.color %} {% else %} {% assign
+color = "White" %} {% endif %} 
+
+{% if include.width %} {% assign width =
+include.width %} {% else %} {% assign width = "100%" %} {% endif %}
+
+<figure class="">
+  <img
+    src="{{ include.url }}"
+    alt="{{ include.title }}"
+    class="{% if include.left %}float-left{% else %}mx-auto d-block{% endif %}
+     img-fluid {% if include.no-padding %}{% else %}mr-4{% endif %} "
+    style="width:{{ width }}"
+  />
+  {% if include.caption %}
+  <figcaption class="text-center mt-2">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
