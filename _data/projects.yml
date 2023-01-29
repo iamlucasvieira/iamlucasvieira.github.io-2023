@@ -3,7 +3,7 @@
   date: "2020-03-26 11:45:10"
   description: "Game created with Python with a basic concept of Machine Learning."
   source: "https://gist.github.com/iamlucassantos/4d8c5809f19245592fd54faab34226a9"
-  image: "/assets/images/scencario-3-1.jpg"
+  video: "/assets/videos/2023-01-29-routes.mp4"
   post: "misc/2020/03/18/First-Blog.html"
 - name: "PAWsim: Parachute and Wind Tunnel Simulator"
   date: "2020-03-27 11:45:10"

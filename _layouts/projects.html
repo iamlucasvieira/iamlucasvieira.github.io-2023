@@ -8,7 +8,11 @@ layout: page
   {% for project in site.data.projects %}
   <div class="col mb-4">
     <div class="card bg-dark h-100">
+      {% if project.video %}
+      <video src="{{ project.video }}" style="object-fit:cover; height:30vh" autoplay loop></video>
+      {% else %}
       <img src="{{ project.image }}" class="card-img-top" style="object-fit:cover; height:30vh" alt="..." />
+      {% endif %}
       <div class="card-body">
         <h4 class="card-title m-0">{{ project.name }}</h4>
         {% if project.post %}
