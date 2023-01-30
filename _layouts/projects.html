@@ -9,7 +9,7 @@ layout: page
   <div class="col mb-4">
     <div class="card bg-dark h-100">
       {% if project.video %}
-      <video src="{{ project.video }}" style="object-fit:cover; height:30vh" autoplay loop></video>
+      <video src="{{ project.video }}" style="object-fit:cover; height:30vh" autoplay loop muted playsinline></video>
       {% else %}
       <img src="{{ project.image }}" class="card-img-top" style="object-fit:cover; height:30vh" alt="..." />
       {% endif %}
