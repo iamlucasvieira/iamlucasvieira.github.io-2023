@@ -16,7 +16,7 @@
   description: "Game created by PyGame which simulates the construction and launch of a rocket."
   source: "https://github.com/iamlucassantos/AeroGame"
   post: "misc/2020/03/18/First-Blog.html"
-  image: "/assets/images/2023-01-26-pawsim-parachute.gif"
+  video: "/assets/videos/2023-02-01-kumo.mp4"
 - name: "PAWsim: Parachute and Wind Tunnel Simulator"
   date: "2020-03-27 11:45:10"
   description: "Simulator of a parachute deployment and aerodynamics."
