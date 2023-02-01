@@ -9,7 +9,7 @@
   date: "2020-03-27 11:45:10"
   description: "Simulator of a parachute deployment and aerodynamics."
   source: "https://gist.github.com/iamlucassantos/ed29474deb90d7fb69252a64390f12cd"
-  image: "/assets/images/2023-01-26-pawsim-flow.gif"
+  video: "/assets/videos/2023-02-01-parachute.mp4"
   post: "project/2023/01/26/Pawsim.html"
 - name: "AERO Game"
   date: "2020-03-28 11:45:10"
