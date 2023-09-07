@@ -65,7 +65,6 @@ minima:
 
       # Values
 header_pages:
-  - home.md
   - about.md
   - projects.md
   - posts.md
