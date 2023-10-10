@@ -1,61 +1,64 @@
-{% if include.background-color %} {% assign background-color =
-include.background-color %} {% else %} {% assign background-color = "None" %} {%
-endif %}
+<!-- Assign images  -->
+{% assign images = include.images | split: "," %}
 
-{% if include.color %} {% assign color =
-  include.color %} {% else %} {% assign color = "White" %} {%
-  endif %}
+<!-- Assign background color -->
+{% if include.background-color %} 
+  {% assign background-color = include.background-color %} 
+{% else %} 
+  {% assign background-color = "None" %} 
+{%endif %}
 
-  {% if include.width %} {% assign width =
-    include.width %} {% else %} {% assign width = "100%" %} {%
-    endif %}
+<!-- Assign color -->
+{% if include.color %} 
+  {% assign color = include.color %} 
+{% else %} 
+  {% assign color = "White" %} 
+{% endif %}
+
+<!-- Assign width -->
+{% if include.width %} 
+  {% assign width = include.width %} 
+{% else %} 
+  {% assign width = "100%" %} 
+{% endif %}
 
 <div class="full-div my-3" style="background-color: {{ background-color }}; color: {{ color }} ">
   <div class="container p-2 p-md-4">
+
     {% if include.title %}
     <h1>{{ include.title }}</h1>
-    {% endif %} {% if include.gallery %}
-    <div class="row">
-      {% for image in include.gallery %}
-      <div class="col-12 col-md-6">
-        {% if image.url %}
-         
+    {% endif %} 
+      <div class="row">
+        {% if images.size > 1 %}
+          {% for image in images %}
+          <div class="col-12 col-md-6">
+                <figure>
+                  <img src="{{ image }}" alt="" class="mx-auto d-block img-fluid" />
+                  {% if image.caption %}
+                  <figcaption class="text-center mt-2">
+                    {{ image.caption }}
+                  </figcaption>
+                  {% endif %}
+                </figure>
+          </div>
+          {% endfor %}
+        {% else %}
+          <div class="col-12">
             <figure>
-              <img src="{{ image.url }}" alt="" class="mx-auto d-block img-fluid" />
-              {% if image.caption %}
+              <img
+                src="{{ images }}"
+                alt="{{ include.title }}"
+                class="mx-auto d-block img-fluid"
+                style="width:{{ width }}"
+              />
+              {% if include.caption %}
               <figcaption class="text-center mt-2">
-                {{ image.caption }}
+                {{ include.caption }}
               </figcaption>
               {% endif %}
             </figure>
-          
-        {% else %}
-        <blockquote class="blockquote">
-          <p class="mb-0" style="color:{{ color }};">{{ image.text }}</p>
-        </blockquote>
+          </div>
         {% endif %}
       </div>
-      {% endfor %}
-    </div>
-
-    {% else %}
-
-    <div class="col-12">
-      <figure>
-        <img
-          src="{{ include.url }}"
-          alt="{{ include.title }}"
-          class="mx-auto d-block img-fluid"
-          style="width:{{ width }}"
-        />
-        {% if include.caption %}
-        <figcaption class="text-center mt-2">
-          {{ include.caption }}
-        </figcaption>
-        {% endif %}
-      </figure>
-    </div>
-
-    {% endif %}
   </div>
 </div>
