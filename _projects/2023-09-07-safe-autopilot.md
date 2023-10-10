@@ -10,8 +10,9 @@ categories: project
 
 The project, part of my Master's thesis, aims to redefine aviation safety by employing a Reinforcement Learning (RL)-based autopilot system capable of adapting to unexpected aircraft failures.
 
-![Sperry](/assets/images/sperry.jpeg){: .align-center;}
-*In 1914, Lawrence Sperry takes to the skies for the world's first autopilot flight [^1]*
+
+{% include image.html url="/assets/images/sperry.jpeg" caption="In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight" width="70%" %}
+
 
 ## Issue at Hand
 Air travel is among the safest modes of transportation, but traditional autopilot systems are often not prepared for unexpected malfunctions or structural failures. Those systems are optimized for well-defined conditions and known variables. While reliable under normal circumstances, they tend to struggle with unexpected system or structural failures.  My  project creates an autopilot that can adapt to unforseen conditions.
@@ -23,12 +24,12 @@ The core of this project is a novel algorithm that combines Soft Actor-Critic (S
 
 In my experiments I demonstrated how this autopilot can retain control under sensor noise, variations in flight conditions and failure cases, such as partial loss of rudder and aileron.
 
-![Controller](/assets/images/controller-1.png){: style="width: 44%; height: auto; align: left;"} ![Controller](/assets/images/hybrid-actor-1.png){: style="width: 55%; height: auto; align: left;"}
+{% include hero.html url="/assets/images/controller-1.png,/assets/images/hybrid-actor-1.png" caption="Architecture of agents and environment.,Topology of hybrid actor network." %}
 
 ## Technology Stack
 The machine learning model was built using PyTorch, a popular open-source machine learning library. Gymnasium was used to build the reinforcement learning environment. And to make sure everything ran smoothly, Weights & Biases (W&B) was used for project tracking and MLOps.
 
 ---
-[^1]: https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/
+[^1]: 
 [^2]: https://arxiv.org/abs/1801.01290
 [^3]: https://doi.org/10.1016/j.ifacol.2019.12.613

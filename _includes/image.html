@@ -1,18 +1,46 @@
-{% if include.color %} {% assign color = include.color %} {% else %} {% assign
-color = "White" %} {% endif %} 
+<!-- url -->
+{% assign url = include.url %}
 
-{% if include.width %} {% assign width =
-include.width %} {% else %} {% assign width = "100%" %} {% endif %}
+<!-- Caption -->
+{% if include.caption %}
+  {% assign caption = include.caption %}
+{% else %}
+  {% assign caption = "" %}
+{% endif %}
 
-<figure class="">
+<!-- Group  -->
+{% if include.group %}
+  {% assign group = include.group %}
+{% else %}
+  {% assign group = "post" %}
+{% endif %}
+
+
+<!-- Width -->
+{% if include.width %} 
+  {% assign width = include.width %} 
+{% else %} 
+  {% assign width = "100%" %} 
+{% endif %}
+
+<!-- Assign color -->
+{% if include.color %} 
+  {% assign color = include.color %} 
+{% else %} 
+  {% assign color = "White" %} 
+{% endif %}
+
+<figure class="" style="color: {{color}};">
+  <a href="{{url}}" data-lightbox="{{group}}" data-title="{{caption}}">
   <img
-    src="{{ include.url }}"
-    alt="{{ include.title }}"
+    src="{{url}}"
+    alt="{{title}}"
     class="{% if include.left %}float-left{% else %}mx-auto d-block{% endif %}
      img-fluid {% if include.no-padding %}{% else %}mr-4{% endif %} "
     style="width:{{ width }}"
   />
-  {% if include.caption %}
-  <figcaption class="text-center mt-2">{{ include.caption }}</figcaption>
-  {% endif %}
+
+  </a>
+  <figcaption class="text-center mt-2">{{ caption | markdownify}}</figcaption>
+
 </figure>

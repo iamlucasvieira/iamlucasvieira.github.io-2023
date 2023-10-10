@@ -1,5 +1,6 @@
 <!-- Assign images  -->
-{% assign images = include.images | split: "," %}
+{% assign urls = include.url | split: "," %}
+{% assign captions = include.caption | split: "," %}
 
 <!-- Assign background color -->
 {% if include.background-color %} 
@@ -29,34 +30,18 @@
     <h1>{{ include.title }}</h1>
     {% endif %} 
       <div class="row">
-        {% if images.size > 1 %}
-          {% for image in images %}
+        {% if urls.size > 1 %}
+          {% for url in urls %}
           <div class="col-12 col-md-6">
-                <figure>
-                  <img src="{{ image }}" alt="" class="mx-auto d-block img-fluid" />
-                  {% if image.caption %}
-                  <figcaption class="text-center mt-2">
-                    {{ image.caption }}
-                  </figcaption>
-                  {% endif %}
-                </figure>
+            
+            {% assign sub_caption = captions[forloop.index0] %}
+            {% include image.html url=url width=width caption=sub_caption width=width color=color%}
           </div>
           {% endfor %}
         {% else %}
           <div class="col-12">
-            <figure>
-              <img
-                src="{{ images }}"
-                alt="{{ include.title }}"
-                class="mx-auto d-block img-fluid"
-                style="width:{{ width }}"
-              />
-              {% if include.caption %}
-              <figcaption class="text-center mt-2">
-                {{ include.caption }}
-              </figcaption>
-              {% endif %}
-            </figure>
+            {% assign sub_caption = captions[0] %}
+            {% include image.html url=urls caption=sub_caption width=width color=color%}
           </div>
         {% endif %}
       </div>

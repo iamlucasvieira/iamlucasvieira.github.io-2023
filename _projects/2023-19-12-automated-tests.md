@@ -16,8 +16,7 @@ The old way of testing drones involved painstaking manual effort. Engineers woul
 ##  Solution
 I developed a flexible framework that allows engineers to pre-program a communication sequences with drones and automatically evaluate their responses. To make things even smoother, we've also created a command-line tool that can execute these tests quickly. Now, instead of slogging through manual checks, the production team can instantly assess different drone properties at the click of a button.
 
-![Sperry](/assets/images/aat.png)
-*CLI interface of the automated testing tool.*
+{% include image.html url="/assets/images/aat.png" caption="CLI interface of the automated testing tool."%}
 
 ## Technology Stack
 I used Python as the core programming language for this project, and for the command-line application, I employed [Typer](https://typer.tiangolo.com/), a modern library that simplifies CLI development. I also used the [MAVLink](https://mavlink.io/en/) protocol to ensure seamless communication between the testing framework and the drones.
