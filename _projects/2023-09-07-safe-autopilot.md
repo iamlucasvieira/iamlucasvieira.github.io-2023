@@ -5,31 +5,37 @@ date: "2023-09-07 11:45:10"
 categories: project
 ---
 
-## Introduction
-**[Source code](https://github.com/iamlucasvieira/HybridRL-FlightControl) | [Paper](https://repository.tudelft.nl/islandora/object/uuid%3A10f5fa68-f934-414a-9067-988f51f098cb?collection=education) | [Demo](https://youtu.be/7ZOf5KNVHAk)**
 
-The project, part of my Master's thesis, aims to redefine aviation safety by employing a Reinforcement Learning (RL)-based autopilot system capable of adapting to unexpected aircraft failures.
 
+I developed a machine-learning autopilot as part of my Master's thesis. The autopilot can control an aircraft even when unexpected failures occur, such as a plane losing part of its wing. By adapting the control strategy, the autopilot ensures the aircraft can still fly safely. If you are interested in the technical details, check:
+
+[Code](https://github.com/iamlucasvieira/HybridRL-FlightControl) / [Paper](https://repository.tudelft.nl/islandora/object/uuid%3A10f5fa68-f934-414a-9067-988f51f098cb?collection=education) / [Demo](https://youtu.be/7ZOf5KNVHAk)
+
+## The problem
+
+While air travel is among the safest modes of transportation, traditional autopilot systems can struggle with unexpected malfunctions or structural failures. These systems are designed for operation under specific ranges and conditions, making them less effective when facing unexpected scenarios. 
 
 {% include image.html url="/assets/images/sperry.jpeg" caption="In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight" width="70%" %}
 
-
-## Issue at Hand
-Air travel is among the safest modes of transportation, but traditional autopilot systems are often not prepared for unexpected malfunctions or structural failures. Those systems are optimized for well-defined conditions and known variables. While reliable under normal circumstances, they tend to struggle with unexpected system or structural failures.  My  project creates an autopilot that can adapt to unforseen conditions.
-
-
-
-## Solution
-The core of this project is a novel algorithm that combines Soft Actor-Critic (SAC)[^2] and Incremental Dual Heuristic Programming (IDHP)[^3]. SAC excels in offline learning, using precomputed knowledge for quick decisions. On the other hand, IDHP adapts in real-time, known as online learning. By bringing the two together, the resulting hybrid algorithm allows the autopilot system to adapt in real-time to adverse conditions, enhancing both its immediate and future response capabilities.
-
-In my experiments I demonstrated how this autopilot can retain control under sensor noise, variations in flight conditions and failure cases, such as partial loss of rudder and aileron.
-
+## The solution 
+My project addresses this issue by developing an autopilot that can adapt to unforeseen conditions. To achieve this, I created a novel algorithm that combines Distributional Soft Actor-Critic (DSAC)[ˆ1] and Incremental Dual Heuristic Programming (IDHP)[ˆ2]. DSAC excels in offline learning by using precomputed knowledge to make quick decisions. In contrast, IDHP adapts in real-time, known as online learning. By bringing the two together, the resulting hybrid algorithm allows the autopilot system to adjust in real-time to adverse conditions, enhancing its immediate and future response capabilities. 
 {% include hero.html url="/assets/images/controller-1.png,/assets/images/hybrid-actor-1.png" caption="Architecture of agents and environment.,Topology of hybrid actor network." %}
 
+
+## Experiments 
+In my experiments, I demonstrated how this autopilot can retain control under sensor noise, variations in flight conditions, and failure cases, such as partial loss of rudder and aileron. 
+
+
 ## Technology Stack
-The machine learning model was built using PyTorch, a popular open-source machine learning library. Gymnasium was used to build the reinforcement learning environment. And to make sure everything ran smoothly, Weights & Biases (W&B) was used for project tracking and MLOps.
+- **PyTorch**: Used to develop and train the autopilot model. 
+- **Gymnasium** Used to build the reinforcement learning environment. 
+- **Weights & Biases (W&B)** Used for project tracking and MLOps.
 
 ---
-[^1]: 
 [^2]: https://arxiv.org/abs/1801.01290
 [^3]: https://doi.org/10.1016/j.ifacol.2019.12.613
+
+
+
+
+
