@@ -8,27 +8,19 @@
 
 @import "images";
 
+
 h1, h2 {
   font-weight: 700
-
-}
- 
-// profile image
-img.profile_pic{
-  border-radius: 50%;
 }
 
 #main-nav a{
     font-size:large;
 }
 
-#main-nav img {
-  // object-fit: cover;
-  width: 20%;
-  height: auto;
-  margin-right: 5px;
-}
-
 p.callout-text{
   font-size:xx-large;
+}
+
+.post-content img {
+  border-radius: 15px;
 }
