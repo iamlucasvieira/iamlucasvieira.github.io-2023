@@ -5,21 +5,27 @@ date: "2023-09-12 11:45:10"
 categories: project
 ---
 
-## Introduction
-Streamlining the drone-testing game was the aim during my internship. I developed a framework and command-line tool that changed how drone sensors and software are evaluated, saying goodbye to time-consuming manual checks.
+My software engineering internship with [Avy](https://avy.eu/) allowed me to streamline the testing process for the company's drones. I created a framework that facilitates setting up tests and a user-friendly command-line tool to run them.
 
-With [Avy](https://avy.eu/) selling more and more drones, the production phase showed to be a big barrier between purchase and delivery. My work tackled the challenge of using automation to enhance the speed of the testing process. I  creating an Automated Tests Framework, a toolkit designed to simplify and speed up the drone testing process.
+## The Challenge
+Before my project, drone testing was a laborious, manual task. Engineers had to connect to each drone and send commands to check hardware and software integrity. This process was not only time-consuming but also vulnerable to human errors. If a fault was detected, the drone had to be returned for repairs, and the entire testing sequence would have to be rerun.
 
-## Issue at Hand
-The old way of testing drones involved painstaking manual effort. Engineers would individually communicate with each drone to test its sensors and software, a process as tedious as it sounds. This manual approach was not just time-consuming; it also introduced the risk of human error.
-
-##  Solution
-I developed a flexible framework that allows engineers to pre-program a communication sequences with drones and automatically evaluate their responses. To make things even smoother, we've also created a command-line tool that can execute these tests quickly. Now, instead of slogging through manual checks, the production team can instantly assess different drone properties at the click of a button.
+## The Solution
+I created a framework that allows engineers to pre-program a communication sequence with the drones, which automatically evaluates the drones' responses. To make things smoother, I built a command-line tool to execute these tests at the push of a button, saving both time and sanity.
 
 {% include image.html url="/assets/images/aat.png" caption="CLI interface of the automated testing tool."%}
 
-## Technology Stack
-I used Python as the core programming language for this project, and for the command-line application, I employed [Typer](https://typer.tiangolo.com/), a modern library that simplifies CLI development. I also used the [MAVLink](https://mavlink.io/en/) protocol to ensure seamless communication between the testing framework and the drones.
+## Overcoming Difficulties
+My initial vision for this tool included wireless connections to the drones. However, implementing this feature presented a couple of challenges. First, a wireless system would make the tool dependent on the drone's firmware authentication system. Secondly, a tool that wirelessly connects to any drone could be a security risk. Think about someone reverse-engineering it and using it to control a drone remotely.
 
-## Impact
-This framework didn't just cut down on testing time; it brought a new level of efficiency and reliability to the entire production process. With the capability to execute rapid and accurate tests, the production team can now focus on more complex tasks, leaving the mundane checks to the Automated Tests Framework.
+After weighing the pros and cons, I opted for a USB connection, which was more straightforward and more efficient. This method had two perks. First, it instantly establishes a communication link between the computer and the drone. Second, it signals the drone's firmware to ignore any movement commands, ensuring safety during testing.
+
+The USB solution also made it easier to use the tool. All the production team needed to do was plug in the drone, run the command `aat run`, and voila! The tests were executed automatically, and a detailed report was generated.
+
+## The Impact
+This new framework significantly reduced testing time, bringing higher efficiency and reliability to Avy's production process. The Automated Testing Framework allows the production team to allocate more time for complex tasks while the tool is autonomously testing the drones.
+
+## Technology Stack
+- **Python**: The core programming language for this project and the command-line application
+- **[Typer](https://typer.tiangolo.com/)**: A modern library that simplified the CLI development. 
+- **[MAVLink](https://mavlink.io/en/)**: The protocol used to build the communication between the testing framework and the drones.
